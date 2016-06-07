@@ -1,6 +1,6 @@
 # RSA file encryption and decryption tool
 ### Description
-This module provides one python script to generate a RSA key pair and two python scipts for encryption and decryption of files using RSA public and private key. The session is actually encypted with RSA public key. The session key used to encrypt the file using AES in GCM mode    
+This module provides one python script to generate a RSA key pair and two python scipts for encryption and decryption of files using RSA public and private key. The session is actually encypted with RSA public key. The session key is used to encrypt the file using AES in GCM mode    
 <https://en.wikipedia.org/wiki/Galois/Counter_Mode>  
 ### How to run
 
