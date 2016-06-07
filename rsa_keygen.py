@@ -8,11 +8,11 @@ key = RSA.generate(2048)
 # Get name of private key from user
 default_private_key_name = "rsa_private_key.pem"
 user_private_key_name = raw_input("NAME FOR FILE WHERE GENERATED RSA PRIVATE KEY SHOULD BE STORED\nDefault: " + str(default_private_key_name) + "\nEnter name for file where generated private key should be stored:")
-private_key = user_private_key_name or default_private_key_name
+private_key_name = user_private_key_name or default_private_key_name
 
 # Write the RSA key to a file
 private_key = key.exportKey()
-file_out = open("rsa_private_key1.pem", "wb")
+file_out = open(private_key_name, "wb")
 file_out.write(private_key)
 
 
